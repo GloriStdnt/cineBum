@@ -1,0 +1,32 @@
+header{
+    background-color: black;
+    color: yellow;
+    border: 1px solid black;
+}
+nav{
+    background-color: rgb(21,21,21);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}
+article{
+    background-color: rgb(45,45,46);
+}
+article p{
+    font-size: 20px;
+    color: yellow;
+}
+footer{
+    background-color: rgb(70, 70, 70);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+footer h5{
+    color: white;
+    font-size: 10px;
+    padding-left: 50%;
+}
