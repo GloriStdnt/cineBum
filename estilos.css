@@ -1,7 +1,18 @@
+/* INICIO MENU */
 header{
     background-color: black;
     color: yellow;
     border: 1px solid black;
+    font-family: 'Carter One','Lalezar', cursive;
+    font-size: 22px;
+    padding-left: 10px;
+}
+header h1{
+    display: inline;
+}
+#clip{
+    font-size: 40px;
+    padding-left: 10px;
 }
 nav{
     background-color: rgb(21,21,21);
@@ -12,14 +23,36 @@ nav a{
     color: white;
     text-decoration: none;
     margin-left: 50px;
+    font-family: 'Fredoka One',Helvetica, cursive;
 }
-article{
+/* FIN MENU */
+/* font-family: 'Poppins', sans-serif; */
+/* INICIO CUERPO DE PAGINA */
+section{
     background-color: rgb(45,45,46);
 }
-article p{
+section p{
     font-size: 20px;
     color: yellow;
+    font-family:  Helvetica;
+    font-weight: bold;
+    padding-left: 25px;
 }
+section h2{
+    font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+section form{
+    padding-left: 30px;
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+/* FIN CUERPO DE PAGINA */
+
+/* INICIO PIE DE PAGINA */
 footer{
     background-color: rgb(70, 70, 70);
     padding-top: 5px;
@@ -29,4 +62,7 @@ footer h5{
     color: white;
     font-size: 10px;
     padding-left: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
+/* FIN PIE DE PAGINA */
