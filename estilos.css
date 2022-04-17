@@ -5,10 +5,13 @@ header{
     border: 1px solid black;
     font-family: 'Carter One','Lalezar', cursive;
     font-size: 22px;
-    padding-left: 10px;
+    padding-left: 20px;
+    
 }
 header h1{
     display: inline;
+    transition-property: font-size;
+    transition-duration: 2s;
 }
 #clip{
     font-size: 40px;
@@ -25,9 +28,42 @@ nav a{
     margin-left: 50px;
     font-family: 'Fredoka One',Helvetica, cursive;
 }
+nav a:hover{
+    transition-property: color;
+    transition-duration: 1.5s;
+    color:rgb(255, 101, 101);
+}
 /* FIN MENU */
 /* font-family: 'Poppins', sans-serif; */
 /* INICIO CUERPO DE PAGINA */
+@media only screen and (max-width: 600px) {
+    nav a{
+        margin-left: 20px;
+        
+    }
+    section{
+        background-color: rgb(45,45,46);
+    }
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(45,45,46);
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+  .flex-container img{
+      padding-top: 10px;
+      padding-left: 20px;
+      
+  }
+  @media only screen and (min-width:768px) {
+    section{
+        background-color: rgb(45,45,46);
+    }
+  }
+
+
 section{
     background-color: rgb(45,45,46);
 }
