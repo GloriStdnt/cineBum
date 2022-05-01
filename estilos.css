@@ -86,6 +86,9 @@ section form{
     font-family: Helvetica;
     font-weight: bold;
 }
+section iframe{
+    padding-left: 50px;
+}
 /* FIN CUERPO DE PAGINA */
 
 /* INICIO PIE DE PAGINA */
